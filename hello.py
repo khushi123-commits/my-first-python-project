@@ -1,8 +1,14 @@
-import random 
-import string 
-pass_len=12
-charvalues=string.ascii_letters + string.digits + string.punctuation
-password=' '
-for i in range(pass_len):
-    password+=random.choice(charvalues)
-print('your random password is:',password)
+import random
+
+target=random.randint(1,100)
+while True:
+    userchoice=int(input('enter the target:'))
+    if (userchoice==target):
+        print('success:correct guess!!')
+        break
+    elif(userchoice<target):
+        print('your number was too small.take a bigger guess...')
+    else:
+        print('your number was too large.take a smaller guess...')
+
+    print('----------GAME OVER-----------')    
