@@ -6,5 +6,6 @@ welcome to my first python project repository!
 *handle basic arithmetic calculations through an interactive ,clean graphical interface.
 2.**guess the number game('hello.py')**
 *a logic-based number-guessing game where a user attempts to guess a randomly chosen number with helpful hints.
-**random password generator('hello.py')**
+3.**random password generator('hello.py')**
 *a utility script designed to generate strong, randomized passwords and demonstrate basic password checking logic
+4.**cyber_quiz('import tinker as tk.py)**
